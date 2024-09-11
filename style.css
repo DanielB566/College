@@ -76,3 +76,36 @@ button:hover {
         padding: 6px 12px;
     }
 }
+
+
+
+.wrapper {
+    position: absolute;
+    top: 60px; /* Adjust this value to move it further down or up */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center; /* Center align text horizontally */
+}
+
+.typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3em;
+    color: red;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
