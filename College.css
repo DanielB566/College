@@ -1,7 +1,6 @@
-body{
-    background-color: gray;
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+body {
+  margin: 0;
+  background-color: grey;
 }
 
 .navhover:hover {
@@ -25,37 +24,45 @@ body{
     width: 100%;
 }
 
+.section {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
 
-  .section {
-    display: flex;
-    min-height: 100vh;
-    position: relative;
-  }
-  
+.image-container {
+  position: relative;
+  display: flex;
+  width: 50%;
+}
+
+.image {
+  height: 100vh;
+  position: fixed;
+  width: 50%;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  filter: blur(30px);
+  opacity: 0;
+  transition: filter 0.5s ease, opacity 0.5s ease;
+}
+
+.section.active .image {
+  opacity: 1;
+  filter: blur(0);
+}
+
+@media (max-width: 768px) {
   .image-container {
-    position: relative;
-    display: flex;
+    width: 100%; /* Image takes full width on smaller screens */
   }
-  
+
   .image {
-    height: 100vh;
-    position: fixed;
-    width: 50%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    mix-blend-mode: multiply;
-    filter: blur(30px);
-    opacity: 0;
-    transition: filter 0.5s ease, opacity 0.5s ease;
+    height: 50vh; /* Adjust height for smaller screens */
+    width: 100%;
   }
-  
-  .section.active .image {
-    opacity: 1;
-    filter: blur(0);
-  }
+}
 
-  
-
-
- 
