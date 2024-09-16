@@ -66,6 +66,7 @@ body {
   height: 100vh; 
   margin-right: 50px; 
   text-align: left; 
+
 }
 
 
@@ -93,6 +94,16 @@ body {
     padding: 20px;
     height: auto; 
   }
+}
+
+.text{
+  font-weight: bold;
+}
+
+header {
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
+  padding: 10px; 
 }
 
 
