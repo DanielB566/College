@@ -55,14 +55,48 @@ body {
   filter: blur(0);
 }
 
+.text-container {
+  width: 40%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+  z-index: 1;
+  margin-left: auto; 
+  height: 100vh; 
+  margin-right: 50px; 
+  text-align: left; 
+}
+
+
 @media (max-width: 768px) {
-  .image-container {
-    width: 100%; /* Image takes full width on smaller screens */
+  .section {
+    flex-direction: column; 
+  }
+
+  .image-container,
+  .text-container {
+    width: 100%; 
+    position: relative; 
+    height: auto; 
   }
 
   .image {
-    height: 50vh; /* Adjust height for smaller screens */
+    height: 50vh; 
     width: 100%;
+    position: static; 
+  }
+
+  .text-container {
+    justify-content: center;
+    margin-right: 0; 
+    padding: 20px;
+    height: auto; 
   }
 }
+
+
+
+
+
 
