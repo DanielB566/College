@@ -3,6 +3,10 @@ body {
   background-color: grey;
 }
 
+.navtext{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .navhover:hover {
     position: relative;
     display: inline-block;
