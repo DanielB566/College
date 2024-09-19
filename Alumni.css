@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: grey;
+    background-color: #5F6A72;
   }
 
   .navtext{
@@ -20,7 +20,7 @@ body {
       height: 2px;
       bottom: 0;
       left: 0;
-      background-color: aqua; 
+      background-color: #CC0033; 
       transition: width 0.3s ease-out;
   }
   

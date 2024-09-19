@@ -20,7 +20,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: aqua; 
+    background-color: #CC0033; 
     transition: width 0.3s ease-out;
 }
 
@@ -106,7 +106,7 @@ button:hover {
 }
 
 @keyframes blink {
-    50% {
+    25% {
         border-color: transparent;
     }
 }
