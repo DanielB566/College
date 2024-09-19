@@ -81,7 +81,7 @@ button:hover {
 /* https://codepen.io/denic/pen/GRoOxbM CREDITS */
 .wrapper {
     position: absolute;
-    top: 60px; /* Adjust this value to move it further down or up */
+    top: 250px; /* Adjust this value to move it further down or up */
     left: 50%;
     transform: translateX(-50%);
     text-align: center; /* Center align text horizontally */
@@ -94,7 +94,7 @@ button:hover {
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 3em;
     color: red;
     margin-top: 150px;
 }
