@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: grey;
+  }
+
+  .navtext{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .navhover:hover {
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+  }
+  
+  .navhover::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: aqua; 
+      transition: width 0.3s ease-out;
+  }
+  
+  .navhover:hover::after {
+      width: 100%;
+  }
+  
