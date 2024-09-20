@@ -33,6 +33,7 @@ body {
     height: 100vh;
   }
 
+
   #backgroundimage {
     display: flex;
     justify-content: center;
@@ -69,6 +70,17 @@ body {
     border-bottom: 2px solid #CC0033;
 
 }
+
+.custom-card {
+    border: 2px solid red; 
+    border-radius: 15px; 
+  }
+  
+  .custom-card .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
 
  
 

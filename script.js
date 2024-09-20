@@ -16,7 +16,7 @@ function changeImage() {
 // Credits: https://www.winterwind.com/tutorials/css/25 // 
 
 
-// Credits: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp // 
+
 
 
 
