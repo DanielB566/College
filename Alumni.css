@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #5F6A72;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .navtext{
@@ -27,4 +28,53 @@ body {
   .navhover:hover::after {
       width: 100%;
   }
+
+  .section1{
+    height: 100vh;
+  }
+
+  #backgroundimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100vh; 
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-image:  url('imgs/heroAlum.jpg');
+}
+
+@media (max-width: 768px) {
+    #backgroundimage {
+        background-image:url('imgs/heroAlumMD.png');
+    }
+
+  
+}
+
+@media (max-width: 576px) {
+    #backgroundimage {
+        background-image: url('imgs/heroAlumSM.png');
+    }
+
+
+}
+
+.text{
+    color: #CC0033;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #CC0033;
+
+}
+
+ 
+
+
+
+  
+  
+  
   
