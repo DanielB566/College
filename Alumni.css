@@ -95,6 +95,20 @@ body {
     background-color: #5F6A72;
   }
 
+  .footerhover:hover{
+    animation: bounce .3s infinite alternate;
+    
+}
+
+@keyframes bounce {
+    to { transform: scale(1.2); }
+  }
+
+  .footerstyle{
+    bottom: 0;
+  }
+
+
 
   
 
